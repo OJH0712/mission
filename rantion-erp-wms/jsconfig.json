@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	},
+	"include": ["./src/api/*", "./src/utils/*", "./src/config/*", "node_modules/ramda/*"]
+}

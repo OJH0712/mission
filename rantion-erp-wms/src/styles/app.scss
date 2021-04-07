@@ -1,0 +1,268 @@
+.app-flex {
+	display: flex;
+}
+.app-flex-sb {
+	display: flex;
+	justify-content: space-between;
+}
+.app-flex-1 {
+	flex: 1;
+}
+.align-items {
+	align-items: center;
+}
+.logo {
+	width: 160px;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+}
+#components-layout-demo-custom-trigger {
+	min-height: 100vh;
+}
+.app-content {
+	margin: 16px;
+	padding: 24px;
+	background: #fff;
+	min-height: 280px;
+}
+.app-main {
+	width: 100%;
+	position: relative;
+	padding: 18px;
+	overflow: hidden;
+	background: #f2f2f2;
+	// transform: translate3d(0px, 0px, 0px);
+}
+.fenye {
+	margin-top: 10px;
+	padding: 10px 0;
+	text-align: right;
+	background-color: #fff;
+	.ant-pagination-total-text {
+		float: right;
+		margin-left: 20px;
+	}
+}
+.ant-btn + .ant-btn {
+	margin-left: 8px;
+}
+
+.margin-auto {
+	text-align: center;
+}
+.expand {
+	padding-left: 8px;
+}
+.page-table {
+	background-color: #fff;
+}
+.table-top {
+	margin-bottom: 10px;
+	line-height: 22px;
+	padding: 8px 18px;
+	background-color: #fff;
+}
+#wxLogin {
+	width: 370px;
+	text-align: center;
+	margin: 0 auto;
+}
+.quill-editor {
+	height: 200px;
+	margin-bottom: 100px;
+}
+.page-from {
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding: 24px;
+}
+.ant-table-body {
+	.ant-select {
+		width: 100%;
+	}
+}
+.drawer-foot {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid #e9e9e9;
+	padding: 10px 16px;
+	background: #fff;
+	text-align: right;
+	z-index: 1;
+}
+.admin-top-av {
+	.ant-avatar {
+		margin-right: 10px;
+	}
+	padding-right: 10px;
+}
+.white-space-nowrap {
+	white-space: nowrap;
+}
+
+.top-search-from {
+	margin-bottom: 10px;
+	background-color: #fff;
+	padding: 24px 18px 18px 18px;
+	.ant-select-selection__rendered,
+	.ant-cascader-picker {
+		min-width: 164px;
+	}
+}
+.app-flex-sb {
+	display: flex;
+	justify-content: space-between;
+}
+.app-flex-1 {
+	flex: 1;
+	text-align: left;
+}
+.app-flex-2 {
+	flex: 1;
+	text-align: left;
+	.table-title {
+		background-color: rgb(206, 200, 200);
+		line-height: 30px;
+		font-size: 15px;
+	}
+	.ant-checkbox-group {
+		text-align: left;
+	}
+	.ant-radio-group {
+		text-align: left;
+	}
+}
+.box {
+	.ant-card-head-title {
+		text-align: left;
+		line-height: 45px;
+		font-size: 15px;
+	}
+}
+
+.table-footer {
+	text-align: center;
+	.ant-btn {
+		margin: 20px 20px 0 20px;
+	}
+}
+.ant-table {
+	background: #fff;
+}
+
+.ant-card-bordered {
+	height: 100%;
+}
+.table-title {
+	font-weight: bold;
+	font-size: 16px;
+}
+.orderTop {
+	.ant-row-flex {
+		padding-top: 10px;
+	}
+}
+.form-display {
+  text-align: left;
+	.ant-row-flex {
+		padding-top: 10px;
+	}
+}
+.order-card {
+	label {
+		width: 60px;
+		display: inline-block;
+	}
+}
+.order-card-long {
+	label {
+		width: 100px;
+		display: inline-block;
+	}
+}
+
+// 登录
+.loginFormlayout {
+	position: absolute;
+	top: 45%;
+	transform: translateY(-50%);
+	right: 10%;
+	width: 400px;
+	padding: 0 40px;
+	box-sizing: border-box;
+	background: #165ab0;
+	border-radius: 5px;
+	z-index: 0.8;
+}
+
+.loginlogo {
+	padding: 40px 0;
+	img {
+		width: 80px;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.login {
+	.a-input__inner {
+		border: none;
+		border-bottom: 1px solid #dcdfe6;
+	}
+}
+
+.loginBj {
+	height: 100vh;
+	width: 100vw;
+	background: url(../assets/login.png) #cdebff;
+	background-size: 100% 100%;
+}
+
+.loginButton {
+	background: #01164a;
+	border-color: #01164a;
+	border-radius: 5px;
+	&:hover {
+		background: none;
+		border-color: none;
+	}
+}
+.kyckick {
+	color: #1890ff;
+	cursor: pointer;
+}
+
+.platform-map {
+	.ant-modal {
+		width: 1330px !important;
+		.platform-map-title {
+			display: flex;
+			align-items: center;
+			margin-bottom: 16px;
+			> div {
+				margin-right: 10px;
+			}
+			> input {
+				width: 260px;
+			}
+		}
+	}
+}
+.ant-table-tbody > tr > td > .ant-table-wrapper:only-child .ant-table {
+	margin: 0 !important;
+}
+
+.scroll-table {
+	.ant-table td {
+		white-space: nowrap;
+	}
+}
+.ant-record{
+
+  .ant-form-item-control{
+    text-align: left;
+  }
+}

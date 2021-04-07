@@ -1,0 +1,30 @@
+{
+	"origins": [
+		{
+			"originUrl": "http://47.107.254.110:28083/v2/api-docs",
+			"name": "ucenter"
+		},
+		{
+			"originUrl": "http://192.168.120.177:9007/v2/api-docs",
+			"name": "basics"
+		}
+	],
+	"usingMultipleOrigins": true,
+	"templatePath": "./pontTemplate",
+	"outDir": "./src/api",
+	"surrounding": "typeScript",
+	"mocks": {
+		"enable": false
+	},
+	"prettierConfig": {
+		"printWidth": 120,
+		"tabWidth": 2,
+		"useTabs": true,
+		"semi": false,
+		"singleQuote": true,
+		"TrailingCooma": "none",
+		"bracketSpacing": true,
+		"arrowParens": "always"
+	},
+	"templateType": "fetch"
+}

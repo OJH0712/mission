@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"baseUrl": ".",
+		"module": "esnext",
+		"target": "esnext",
+		"sourceMap": true,
+		"alwaysStrict": true,
+		"moduleResolution": "node",
+		"rootDir": ".",
+		"forceConsistentCasingInFileNames": false,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noImplicitAny": true,
+		"importHelpers": true,
+		"strictNullChecks": true,
+		"allowSyntheticDefaultImports": true,
+		"noUnusedLocals": true,
+		"strict": true,
+		"jsx": "preserve",
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"types": ["node", "webpack-env"],
+		"strictPropertyInitialization": false,
+		"paths": {
+			"@/*": ["src/*"]
+		},
+		"lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+	},
+	"include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/*.ts", "tests/**/*.ts", "tests/**/*.tsx", "types/*.ts", "src/components/Form"],
+	"exclude": ["node_modules", "src/api/*.ts"]
+}

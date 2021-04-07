@@ -1,0 +1,8 @@
+build/*.js
+src/assets
+public
+dist
+static
+*.js
+src/api/*.*
+package-lock.json

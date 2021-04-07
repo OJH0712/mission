@@ -1,0 +1,14 @@
+/**
+ * @desc 前端-获取拣货单信息
+ */
+const URL = '/rantion-wms'
+import http, { updateResponse } from '@/http'
+export function request(pickno: string, options?: any) {
+	return updateResponse(
+		http(URL + `/pickMaster/pickInfo/${pickno}`, {
+			method: 'GET',
+
+			...options
+		})
+	)
+}

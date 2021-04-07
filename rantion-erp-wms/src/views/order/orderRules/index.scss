@@ -1,0 +1,52 @@
+.order-ruler-table {
+  .drag {
+    cursor: move;
+  }
+}
+.order-model {
+  .ant-modal-header {
+    text-align: center;
+    border-bottom: none;
+    font-size: 18px;
+  }
+  .model-left,.model-right {
+    border: 1px solid #ebeef5;
+    border-radius: 2px;
+    padding: 0 8px;
+  }
+  .model-left {
+    margin-right: 10px;
+    min-height: 300px;
+    .h5 {
+      font-weight: bold;
+      margin: 15px 0;
+    }
+    .selectList {
+      margin-bottom: 10px;
+      word-break: break-all;
+    }
+    .color-blue {
+      color: #1890ff;
+      cursor: pointer;
+    }
+  }
+  .model-right {
+    padding-bottom: 20px;
+    .h5 {
+      font-weight: bold;
+      margin: 15px 0;
+    }
+  }
+  .ruler-row {
+    margin: 10px 0;
+    vertical-align: middle;
+  }
+  .matching-rules {
+    padding-left: 25%;
+    margin-bottom: 18px;
+    line-height: 1.5;
+  }
+  .ant-form-item {
+    margin-bottom: 18px;
+  }
+}

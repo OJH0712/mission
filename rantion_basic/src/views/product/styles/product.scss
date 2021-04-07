@@ -1,0 +1,37 @@
+.box_card_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .ant-row {
+    display: flex;
+    .ant-form-item-label {
+      width: 170px;
+    }
+  }
+  .ant-input {
+    width: 300px;
+  }
+  .ant-select {
+    width: 300px;
+  }
+}
+.ant-upload-picture-card-wrapper {
+  width: 50%
+}
+.file_name {
+	position: relative;
+	margin-right: 30px;
+	:global(.el-icon-circle-close) {
+		position: absolute;
+		width: 18px;
+		height: 18px;
+		top: 0;
+		right: 0;
+		font-size: 18px;
+		text-align: center;
+		line-height: 17px;
+		cursor: pointer;
+		color: red;
+		transform: translate(120%, 50%);
+	}
+}
